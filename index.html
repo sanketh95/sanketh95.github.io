@@ -21,12 +21,12 @@
         max-width: 1000px;
       }
       .container > hr {
-        margin: 60px 0;
+        margin: 40px 0;
       }
 
       /* Main marketing message and sign up button */
       .jumbotron {
-        margin: 80px 0;
+        margin: 80px 0 30px 0;
         text-align: center;
       }
       .jumbotron h1 {
@@ -87,6 +87,16 @@
         max-width: 300px;
         max-height: 400px;
       }
+      ul.inl{
+        list-style-type: none;
+      }
+      ul.inl li{
+        display: inline;
+      }
+      .icon{
+        max-height: 30px;
+        max-height: 30px;
+      }
     </style>
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 
@@ -104,7 +114,7 @@
               <ul class="nav">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#">My Works</a></li>
-                <li><a href="#">Things I'm good at</a></li>
+                <li><a href="#">Things I Do</a></li>
                 <li><a href="https://docs.google.com/document/d/1GIcJLnE6Wdd5DE8R7-_LqaT2fpLs5G5ul1p4VZKfu4A/pub">My Resume</a></li>
                 <li><a href="#">Contact</a></li>
               </ul>
@@ -117,8 +127,9 @@
       <div class="jumbotron">
         <h2 class="custom-heading">About Me</h2>
         <p class="lead">
-          Hi, I'm Sanketh Mopuru, a student of Computer Science Engineering in IIT Guwahati. 
-        </p>
+          Hi, I'm Sanketh Mopuru, studying B.Tech in Computer Science and Engineering in <strong><a href="http://iitg.ac.in">IIT Guwahati</a></strong>. I love coding and am a serial coder. When I'm not coding, I usually google for interesting and breathtaking advancements in Science and Technology and hang out with my friends. My interests in Computer Science lie in <strong><a href="http://en.wikipedia.org/wiki/Computer_network">Networking</a></strong> and <strong><a href="http://en.wikipedia.org/wiki/Machine_learning">Machine Learning</a></strong>.</p>
+          <p class="lead">
+           You can find my works <a href="#">here</a>. If you are fellow coder and interested in contributing to some cool projects check me out on <strong><a href="https://github.com/sanketh95">GitHub</a></strong></p>. 
       </div>
 
 
@@ -126,7 +137,12 @@
       <hr>
 
       <div class="footer">
-        <p>&copy; Company 2013</p>
+        <p>Follow me on:</p>
+        <ul class="inl">
+          <li><a href="https://github.com/sanketh95"><img src="images/github.jpg" class="icon"></a></li>
+          <li><a href="https://www.facebook.com/sanketh.mopuru"><img src="images/fb.jpg" class="icon"></a></li>
+          <li><a href="https://plus.google.com/105025502890908775934/posts/p/pub"><img src="images/gp.jpg" class="icon"></a></li>
+        </ul>
       </div>
 
     </div> <!-- /container -->
