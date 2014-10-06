@@ -111,6 +111,15 @@
 
   <body>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=311462892373710&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
     <div class="container">
 
       <div class="masthead">
@@ -134,13 +143,15 @@
       <div class="main">
         <h1>My Works</h1>
         <div class="work">
-          <h3>PyFTP</h3>
+          <a name="pyftp"></a>
+          <a href="#pyftp"><h3>PyFTP</h3></a>
           <p>This is a simple commandline FTP client written in Python using the <strong>ftplib</strong> module. It has a cool recursive search functionality.<br>
             <a href="https://github.com/sanketh95/PyFTP/blob/master/README.md">Installaton and Usage Instructions</a> <a href="https://github.com/sanketh95/PyFTP">Source Code</a>.
           </p>
         </div>
         <div class="work">
-          <h3>JQuery Form Helpers and Validators</h3>
+          <a name="jqfh"></a>
+          <a href="#jqfh"><h3>JQuery Form Helpers and Validators</h3></a>
           <p>
             This is a simple jquery plugin to validate forms.<br>
             It has cool features like:
@@ -152,11 +163,13 @@
             and much more ... <br>
             <a href="https://github.com/sanketh95/jquery-form-helper/blob/master/README.md">
               Installation and Usage instructions</a>
-            <a href="https://github.com/sanketh95/jquery-form-helper">Source Code</a>
+            <a href="https://github.com/sanketh95/jquery-form-helper">Source Code</a><br>
+            <div class="fb-share-button" data-href="http://sanketh.github.io/works.html#jqfh"></div>
           </p>
         </div>
         <div class="work">
-          <h3>Intranet Entertainment Portal</h3>
+        <a name="iep"></a>
+          <a href="#iep"><h3>Intranet Entertainment Portal</h3></a>
           <p>
             This is an entertainment portal for IITG Intranet. It was a team project, the team containing 20 members.<br>  It includes the following modules:
             <ul>
@@ -171,7 +184,8 @@
           </p>
         </div>
         <div class="work">
-          <h3>HoteLGuru</h3>
+          <a name="hg"></a>
+          <a href="#hg"><h3>HoteLGuru</h3></a>
           <p>
             It is a software that helps the hotel management by easing the process of booking of rooms. It has features like:
             <ul>
@@ -183,7 +197,8 @@
           </p>
         </div>
         <div class="work">
-          <h3>Assembler-Linker-Loader</h3>
+        <a name="ass-link-load"></a>
+          <a href="#ass-link-load"><h3>Assembler-Linker-Loader</h3></a>
           <p>
             This project aims in developing a system that takes in high-level assembly language files, links them relative to memory address 0 , loads them to a memory location, and finally maps them to the assembly language accepted by 8085 simulator. This is developed in Python again. ( I never get tired of Python.:) ). <br>
             You can find the source code <a href="https://github.com/sanketh95/assembler-linker-loader">here</a>
@@ -191,7 +206,8 @@
         </div>
       </div>
       <div class="work">
-          <h3>Coursera Offline</h3>
+          <a name="coursera-offline"></a>
+          <a href="#coursera-offline"><h3>Coursera Offline</h3></a>
           <p>
             This is a script to download course videos and subtitles from <a href="https://www.coursera.org">Coursera</a> in one go without having to press several links. <br>
             It has features like:
